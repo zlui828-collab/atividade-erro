@@ -1,0 +1,403 @@
+ [
+    {
+    "id": 1,
+    "isbn": "978-85-1111-001-1",
+    "titulo": "Introdução à Programação",
+    "autor": "Carlos Henrique Silva",
+    "numerodepaginas": 320,
+    "datadapublicacao": "2018-03-15"
+  },
+  {
+    "id": 2,
+    "isbn": "978-85-1111-002-8",
+    "titulo": "Algoritmos e Lógica",
+    "autor": "Maria Aparecida Oliveira",
+    "numerodepaginas": 280,
+    "datadapublicacao": "2019-06-20"
+  },
+  {
+    "id": 3,
+    "isbn": "978-85-1111-003-5",
+    "titulo": "Banco de Dados Relacionais",
+    "autor": "João Pedro Martins",
+    "numerodepaginas": 410,
+    "datadapublicacao": "2020-01-10"
+  },
+  {
+    "id": 4,
+    "isbn": "978-85-1111-004-2",
+    "titulo": "Engenharia de Software Moderna",
+    "autor": "Fernanda Lopes",
+    "numerodepaginas": 390,
+    "datadapublicacao": "2021-09-05"
+  },
+  {
+    "id": 5,
+    "isbn": "978-85-1111-005-9",
+    "titulo": "Desenvolvimento Web com Java",
+    "autor": "Ricardo Albuquerque",
+    "numerodepaginas": 450,
+    "datadapublicacao": "2017-11-30"
+  },
+  {
+    "id": 6,
+    "isbn": "978-85-1111-006-6",
+    "titulo": "Python para Análise de Dados",
+    "autor": "Ana Beatriz Costa",
+    "numerodepaginas": 360,
+    "datadapublicacao": "2022-02-18"
+  },
+  {
+    "id": 7,
+    "isbn": "978-85-1111-007-3",
+    "titulo": "Estruturas de Dados",
+    "autor": "Paulo Roberto Nunes",
+    "numerodepaginas": 330,
+    "datadapublicacao": "2016-08-22"
+  },
+  {
+    "id": 8,
+    "isbn": "978-85-1111-008-0",
+    "titulo": "Inteligência Artificial Básica",
+    "autor": "Juliana Ferreira",
+    "numerodepaginas": 295,
+    "datadapublicacao": "2020-10-01"
+  },
+  {
+    "id": 9,
+    "isbn": "978-85-1111-009-7",
+    "titulo": "Machine Learning Aplicado",
+    "autor": "Eduardo Pacheco",
+    "numerodepaginas": 420,
+    "datadapublicacao": "2021-05-14"
+  },
+  {
+    "id": 10,
+    "isbn": "978-85-1111-010-3",
+    "titulo": "Redes de Computadores",
+    "autor": "Luciana Ramos",
+    "numerodepaginas": 380,
+    "datadapublicacao": "2015-04-09"
+  },
+  {
+    "id": 11,
+    "isbn": "978-85-1111-011-0",
+    "titulo": "Sistemas Operacionais",
+    "autor": "Marcos Vinícius Teixeira",
+    "numerodepaginas": 500,
+    "datadapublicacao": "2014-12-12"
+  },
+  {
+    "id": 12,
+    "isbn": "978-85-1111-012-7",
+    "titulo": "Arquitetura de Computadores",
+    "autor": "Renato Guedes",
+    "numerodepaginas": 340,
+    "datadapublicacao": "2016-06-17"
+  },
+  {
+    "id": 13,
+    "isbn": "978-85-1111-013-4",
+    "titulo": "Segurança da Informação",
+    "autor": "Patrícia Moreira",
+    "numerodepaginas": 365,
+    "datadapublicacao": "2019-09-25"
+  },
+  {
+    "id": 14,
+    "isbn": "978-85-1111-014-1",
+    "titulo": "Criptografia e Segurança",
+    "autor": "André Luiz Barros",
+    "numerodepaginas": 310,
+    "datadapublicacao": "2020-07-07"
+  },
+  {
+    "id": 15,
+    "isbn": "978-85-1111-015-8",
+    "titulo": "Metodologias Ágeis",
+    "autor": "Camila Souto",
+    "numerodepaginas": 215,
+    "datadapublicacao": "2018-01-19"
+  },
+  {
+    "id": 16,
+    "isbn": "978-85-1111-016-5",
+    "titulo": "Gestão de Projetos de TI",
+    "autor": "Rodrigo Farias",
+    "numerodepaginas": 260,
+    "datadapublicacao": "2017-03-11"
+  },
+  {
+    "id": 17,
+    "isbn": "978-85-1111-017-2",
+    "titulo": "UX e UI Design",
+    "autor": "Bianca Rocha",
+    "numerodepaginas": 240,
+    "datadapublicacao": "2021-04-30"
+  },
+  {
+    "id": 18,
+    "isbn": "978-85-1111-018-9",
+    "titulo": "Design Thinking",
+    "autor": "Felipe Moura",
+    "numerodepaginas": 230,
+    "datadapublicacao": "2019-08-08"
+  },
+  {
+    "id": 19,
+    "isbn": "978-85-1111-019-6",
+    "titulo": "Computação em Nuvem",
+    "autor": "Daniela Azevedo",
+    "numerodepaginas": 350,
+    "datadapublicacao": "2022-11-02"
+  },
+  {
+    "id": 20,
+    "isbn": "978-85-1111-020-2",
+    "titulo": "DevOps na Prática",
+    "autor": "Thiago Bastos",
+    "numerodepaginas": 300,
+    "datadapublicacao": "2020-02-27"
+  },
+  {
+    "id": 21,
+    "isbn": "978-85-1111-021-9",
+    "titulo": "Programação Orientada a Objetos",
+    "autor": "Sérgio Lima",
+    "numerodepaginas": 370,
+    "datadapublicacao": "2016-10-14"
+  },
+  {
+    "id": 22,
+    "isbn": "978-85-1111-022-6",
+    "titulo": "C# para Desenvolvedores",
+    "autor": "Vanessa Queiroz",
+    "numerodepaginas": 410,
+    "datadapublicacao": "2018-05-23"
+  },
+  {
+    "id": 23,
+    "isbn": "978-85-1111-023-3",
+    "titulo": "JavaScript Avançado",
+    "autor": "Lucas Brandão",
+    "numerodepaginas": 385,
+    "datadapublicacao": "2019-11-11"
+  },
+  {
+    "id": 24,
+    "isbn": "978-85-1111-024-0",
+    "titulo": "Frameworks Front-End",
+    "autor": "Renata Pinho",
+    "numerodepaginas": 290,
+    "datadapublicacao": "2021-06-16"
+  },
+  {
+    "id": 25,
+    "isbn": "978-85-1111-025-7",
+    "titulo": "APIs RESTful",
+    "autor": "Gustavo Amaral",
+    "numerodepaginas": 275,
+    "datadapublicacao": "2020-09-09"
+  },
+  {
+    "id": 26,
+    "isbn": "978-85-1111-026-4",
+    "titulo": "Microserviços",
+    "autor": "Rafael Torres",
+    "numerodepaginas": 360,
+    "datadapublicacao": "2022-01-05"
+  },
+  {
+    "id": 27,
+    "isbn": "978-85-1111-027-1",
+    "titulo": "Testes Automatizados",
+    "autor": "Helena Prado",
+    "numerodepaginas": 250,
+    "datadapublicacao": "2018-07-27"
+  },
+  {
+    "id": 28,
+    "isbn": "978-85-1111-028-8",
+    "titulo": "Qualidade de Software",
+    "autor": "Bruno Macedo",
+    "numerodepaginas": 310,
+    "datadapublicacao": "2017-02-02"
+  },
+  {
+    "id": 29,
+    "isbn": "978-85-1111-029-5",
+    "titulo": "Big Data Essentials",
+    "autor": "Natália Cunha",
+    "numerodepaginas": 390,
+    "datadapublicacao": "2021-12-18"
+  },
+  {
+    "id": 30,
+    "isbn": "978-85-1111-030-1",
+    "titulo": "Data Science com R",
+    "autor": "Diego Sampaio",
+    "numerodepaginas": 420,
+    "datadapublicacao": "2020-03-21"
+  },
+  {
+    "id": 31,
+    "isbn": "978-85-1111-031-8",
+    "titulo": "Estatística Aplicada",
+    "autor": "Mônica Rezende",
+    "numerodepaginas": 355,
+    "datadapublicacao": "2015-09-01"
+  },
+  {
+    "id": 32,
+    "isbn": "978-85-1111-032-5",
+    "titulo": "Matemática Discreta",
+    "autor": "Leandro Pontes",
+    "numerodepaginas": 300,
+    "datadapublicacao": "2014-04-10"
+  },
+  {
+    "id": 33,
+    "isbn": "978-85-1111-033-2",
+    "titulo": "Lógica Computacional",
+    "autor": "Aline Fernandes",
+    "numerodepaginas": 280,
+    "datadapublicacao": "2016-11-19"
+  },
+  {
+    "id": 34,
+    "isbn": "978-85-1111-034-9",
+    "titulo": "Computação Gráfica",
+    "autor": "Henrique Paiva",
+    "numerodepaginas": 410,
+    "datadapublicacao": "2018-08-13"
+  },
+  {
+    "id": 35,
+    "isbn": "978-85-1111-035-6",
+    "titulo": "Realidade Virtual e Aumentada",
+    "autor": "Patrícia Lobo",
+    "numerodepaginas": 340,
+    "datadapublicacao": "2022-06-06"
+  },
+  {
+    "id": 36,
+    "isbn": "978-85-1111-036-3",
+    "titulo": "Internet das Coisas",
+    "autor": "Fábio Menezes",
+    "numerodepaginas": 325,
+    "datadapublicacao": "2021-01-28"
+  },
+  {
+    "id": 37,
+    "isbn": "978-85-1111-037-0",
+    "titulo": "Sistemas Embarcados",
+    "autor": "Cláudio Rangel",
+    "numerodepaginas": 360,
+    "datadapublicacao": "2019-12-03"
+  },
+  {
+    "id": 38,
+    "isbn": "978-85-1111-038-7",
+    "titulo": "Programação Funcional",
+    "autor": "Letícia Tavares",
+    "numerodepaginas": 290,
+    "datadapublicacao": "2020-06-15"
+  },
+  {
+    "id": 39,
+    "isbn": "978-85-1111-039-4",
+    "titulo": "Kotlin para Android",
+    "autor": "Igor Vidal",
+    "numerodepaginas": 350,
+    "datadapublicacao": "2021-10-20"
+  },
+  {
+    "id": 40,
+    "isbn": "978-85-1111-040-0",
+    "titulo": "Desenvolvimento Mobile",
+    "autor": "Sabrina Monteiro",
+    "numerodepaginas": 400,
+    "datadapublicacao": "2018-02-07"
+  },
+  {
+    "id": 41,
+    "isbn": "978-85-1111-041-7",
+    "titulo": "Flutter e Dart",
+    "autor": "Caio Freitas",
+    "numerodepaginas": 330,
+    "datadapublicacao": "2022-09-14"
+  },
+  {
+    "id": 42,
+    "isbn": "978-85-1111-042-4",
+    "titulo": "React na Prática",
+    "autor": "Priscila Afonso",
+    "numerodepaginas": 310,
+    "datadapublicacao": "2021-03-03"
+  },
+  {
+    "id": 43,
+    "isbn": "978-85-1111-043-1",
+    "titulo": "Angular Essencial",
+    "autor": "Márcio Coutinho",
+    "numerodepaginas": 295,
+    "datadapublicacao": "2019-05-29"
+  },
+  {
+    "id": 44,
+    "isbn": "978-85-1111-044-8",
+    "titulo": "Vue.js para Iniciantes",
+    "autor": "Renato Lins",
+    "numerodepaginas": 260,
+    "datadapublicacao": "2020-08-18"
+  },
+  {
+    "id": 45,
+    "isbn": "978-85-1111-045-5",
+    "titulo": "Node.js e Back-end",
+    "autor": "Victor Peixoto",
+    "numerodepaginas": 370,
+    "datadapublicacao": "2021-07-12"
+  },
+  {
+    "id": 46,
+    "isbn": "978-85-1111-046-2",
+    "titulo": "Arquitetura Limpa",
+    "autor": "Daniel Moraes",
+    "numerodepaginas": 340,
+    "datadapublicacao": "2018-09-09"
+  },
+  {
+    "id": 47,
+    "isbn": "978-85-1111-047-9",
+    "titulo": "Padrões de Projeto",
+    "autor": "Luciano Figueiredo",
+    "numerodepaginas": 415,
+    "datadapublicacao": "2016-01-26"
+  },
+  {
+    "id": 48,
+    "isbn": "978-85-1111-048-6",
+    "titulo": "Refatoração de Código",
+    "autor": "Anderson Leite",
+    "numerodepaginas": 360,
+    "datadapublicacao": "2017-12-04"
+  },
+  {
+    "id": 49,
+    "isbn": "978-85-1111-049-3",
+    "titulo": "Clean Code em Prática",
+    "autor": "Rogério Batista",
+    "numerodepaginas": 325,
+    "datadapublicacao": "2019-02-14"
+  },
+  {
+    "id": 50,
+    "isbn": "978-85-1111-050-9",
+    "titulo": "Carreira em Tecnologia",
+    "autor": "Simone Duarte",
+    "numerodepaginas": 210,
+    "datadapublicacao": "2023-01-08"
+  }
+ ]
+ 

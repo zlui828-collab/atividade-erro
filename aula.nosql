@@ -1,0 +1,115 @@
+para iniciar o mongodb no cmd digite:
+mongosh
+
+Para criar um banco de dados:
+use primeirobanco
+
+Para criar uma collection:
+db.primeiracollection.insertOne({ nome: "Matheus", idade: 30 })
+
+Para verificar os bancos que existem:
+show dbs
+
+Para encontra o dado que foi gravado na collection:
+db.primeiracollection.findOne({})
+
+Vamos inserir mais um dado, nessa mesma collection:
+db.primeiracollection.insertOne({ nome: "João", idade: 32, profissão: "progamador"})
+
+Para ver todos os dados que estão na collection:
+db.primeiracollection.find()
+
+Criar um segundo banco:
+use segundobanco
+
+Criando uma collection nesse segundo banco:
+db.teste.insertOne({ number: 5 })
+
+Mostrando os bancos que existem:
+show dbs
+
+Comando para ver em qual banco estou:
+db
+
+Criando terceiro banco:
+use terceirobanco
+
+Criando uma collection com dado no terceiro banco:
+
+
+Criando quarto banco:
+use quartobanco
+
+Criando collection e dados:
+db.pessoas.insertOne({ nome: "Marcia" })
+db.pessoas.insertOne({ nome: "João" })
+db.pessoas.insertOne({ nome: "João vinicius" })
+
+Mostrando os dados salvos na collection acima:
+db.pessoas.find()
+
+Buscando pelo dado exato passando a chave valor do mesmo:
+db.pessoas.find({ nome: "marcia" })
+db.pessoas.find({ nome: "mariana" })
+
+Vamos criar uma colletion complexa
+db.pessoas.insertOne({ nome: "Luiza", idade: 22, hobbies: ["Progamar", "ler", "Correr", "Jogar"],profissão: "progamadora",esta_trabalhando:true})
+
+Para ver todos os dados, de forma organizada
+db.pessoas.find().pretty()
+
+Criando quinto banco
+use quintobanco
+
+Determinando tamanho e máximo registro da collection:
+db.createCollection("minhacolecao", { capped: true, size: 1000, max: 3 })
+
+Inserindo dados na collection:
+db.minhacolecao.insertOne({ a: 1})
+db.minhacolecao.insertOne({ a: 21})
+db.minhacolecao.insertOne({ a: 221})
+
+Mostrar os dados da collection:
+db.minhacolecao.find()
+
+Inserir mais um dado na collection:
+db.minhacolecao.insertOne({ a: 7 })
+
+Mostrar os dados da collection:
+db.minhacolecao.find()
+
+Exibindo collection:
+show collections
+
+Criando uma nova coleção limitada:
+db.createCollection("minhacolecao2", { capped: true, size: 1000, max: 3 })
+
+Exibindo collections:
+show collections
+
+Excluir a collection:
+db.minhacolecao2.drop()
+
+Exibindo a collection, a de cima foi excluida:
+show collections
+
+Excluíndo o banco de dados:
+db.dropDatabase()
+
+Exibir os banco de dados:
+show dbs
+
+Se quiser excluir um banco existente, acesso ele:
+use terceirobanco
+
+para depois excluir o banco:
+db.dropDatabase()
+
+Exibir os dados do banco
+show dbs
+
+Comando para criar um banco, collection, importando dados:
+mongoimport --db biblioteca --collection livros --file livros-tecnologia.json --jsonArray
+
+Entrar no banco importado:
+use biblioteca
