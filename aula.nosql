@@ -113,3 +113,82 @@ mongoimport --db biblioteca --collection livros --file livros-tecnologia.json --
 
 Entrar no banco importado:
 use biblioteca
+
+Comando para contar quantos dados tem na colletion acima:
+db.livros.countDocuments()
+
+Ver todos os documentos na tela:
+db.livros.find().forEach(printjson)
+
+Ver todos os documentos em ordem crescente:
+db.livros.find({} , 
+{
+    _id: 0,
+    id: 1,
+    isbn:1,
+    titulo: 1,
+    autor: 1,
+    numerodepaginas: 1,
+    datadapublicacao: 1
+}).sort({ id: 1 }).forEach(printjson)
+
+Exportar documentos da colletion para um arquivo JSON:
+mongoexport --uri mongodb://127.0.0.1:27017 -d biblioteca -c livros --jsonArray -o livrosexemplo.json
+
+Criar um novo banco de dados:
+use meuBanco
+
+Criar uma collection com um documento:
+db.pessoas.insertOne({ nome: "Thomas", idade: 25 })
+
+Mostrando a collection:
+show collections
+
+Criando mais uma collection com um documento:
+db.enderecos.inssertOne({ rua: "rua flores", numero: 22 })
+
+Mostrando a collection:
+show collections
+
+Ver o que está dentro da collection, ou seja, o documento:
+db.enderecos.find()
+db.pessoas.find()
+
+Exportando o banco de dados acima (caminho da pasta) backup:
+mongodump -d meuBanco -o meuBanco
+
+Excluir o banco de dados:
+db.dropDatabase()
+
+Restaurando um banco de dados via backup (caminho da pasta) restore:
+mongorestore meuBanco
+
+Ver banco de dados:
+show dbs
+
+Acessando o banco:
+use meuBanco
+
+Mostrando a collection:
+show collections
+
+Ver o que está dentro da collection, ou seja, o documento:
+db.enderecos.find()
+db.pessoas.find()
+
+ Monitorando o mongodb (caminho da pasta):
+ mongostat
+
+ Criando um documento:
+ db.pessoas.insertOne({ nome: "wecton", idade: 20 })
+
+ Para parar o monitoramento do mongodb (caminho da pasta)
+ CTROL + c
+
+ Remover todos os bancos de dados, ao mesmo tempo (preservando a config):
+ Mongo().getDBNames().forEach(function(db){
+    if(['admin', 'config', 'local'].indexOf(db) < 0){
+        Mongo().getDB(db).dropDatabase();
+    }
+});
+
